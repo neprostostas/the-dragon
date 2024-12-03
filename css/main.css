@@ -1399,7 +1399,7 @@ span.tick-label.tick-text {
 .hero {
   pointer-events: none;
   position: absolute;
-  top: 0;
+  top: 2%;
 }
 
 .hero-1 {
@@ -1408,8 +1408,36 @@ span.tick-label.tick-text {
 }
 
 .hero-2 {
-  right: -14vw;
+  right: -17vw;
   width: 60vw;
+}
+
+@media (max-width:1920px) {
+
+  .hero {
+    top: 4%;
+  }
+
+  .hero-2 {
+    right: -19vw;
+  }
+
+}
+
+@media (max-width:1379px) {
+
+  .hero {
+    top: 10%;
+  }
+
+  .hero-1 {
+    left: -14vw;
+  }
+
+  .hero-2 {
+    right: -22vw;
+  }
+
 }
 
 @media (max-width:639px) {
